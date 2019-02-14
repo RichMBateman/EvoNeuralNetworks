@@ -112,6 +112,8 @@ public class Network {
         return m_id;
     }
 
+    public void setId(int id) {m_id = id;}
+
     /**
      * Dictionary of all nodes (mapped by id)
      * @return
